@@ -1,3 +1,7 @@
 <launch>
     <!-- TODO: add nodes here -->
+
+    <!-- map_server -->
+    <!-- amcl -->
+    <!-- move_base -->
 </launch>
