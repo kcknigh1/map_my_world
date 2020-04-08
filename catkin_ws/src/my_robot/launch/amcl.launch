@@ -2,6 +2,8 @@
     <!-- TODO: add nodes here -->
 
     <!-- map_server -->
+    <arg name="map_file" default="$(find my_robot/maps/my_map.yaml"/>
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
     <!-- amcl -->
     <!-- move_base -->
 </launch>
